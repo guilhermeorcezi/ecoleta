@@ -29,56 +29,67 @@ O <strong>Ecoleta</strong> é uma aplicação Web e Mobile para ajudar pessoas a
 O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [TypeScript](https://www.typescriptlang.org/)
+- [Knex](http://knexjs.org/)
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
 
 ## :heavy_check_mark: Resultado:
 
-- O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
-
-<h1 align="center">
-    <img alt="Web" src=".github/VideoWeb.gif" width="900px">
-</h1>
+- Em breve
 
 <a id="como-usar"></a>
 
 ## :fire: Como usar
 
-- ### **Pré-requisitos**
+## Getting started
 
-  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
-  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
-  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
+<h1 align="center"><img align="center" src="./github_assets/frontend_home.png" alt="Omnistack 11 Web" width="700"></img></h1>
 
-1. Faça um clone :
-
-```sh
-  $ git clone https://github.com/vitorserrano/ecoleta.git
+### Instalação - Backend
+Clone o projeto em seu computador. Para instalar as dependências e executar o **Servidor** (modo desenvolvimento) execute:
+```bash
+cd backend
+yarn install
+yarn dev
 ```
 
-2. Executando a Aplicação:
-
-```sh
-  # Instale as dependências
-  $ npm install
-
-  ## Crie o banco de dados
-  $ cd server
-  $ npm run knex:migrate
-  $ npm run knex:seed
-
-  # Inicie a API
-  $ npm run dev
-
-  # Inicie a aplicação web
-  $ cd web
-  $ npm start
-
-  # Inicie a aplicação mobile
-  $ cd mobile
-  $ npm start
+### Instalação - Frontend (WEB)
+Para iniciar o **Frontend** do React utilize os comandos:
+```bash
+cd frontend
+yarn install
+yarn start
 ```
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.
+
+Resultado da aplicação Web:
+
+<h1 align="center"><img align="center" src="./github_assets/webgif.gif" alt="Omnistack 11 Web" width="700"></img></h1>
+
+### Mobile
+
+Para ver a aplicação mobile com o React Native, primeiro é necessário colocar o IP do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois executar os comandos:
+```bash
+# NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado
+yarn global add install expo-cli
+cd mobile
+yarn install
+yarn start
+```
+
+Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
+
+Resultado da aplicação Mobile:
+
+<h1 align="center"><img align="center" src="./github_assets/mobile.gif" alt="Omnistack 11 Mobile"  width="300" height="600"></img></h1>
+
+### Insomnia 
+Para testar a API do Be The Hero, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
+
+## Licença
+
+Esse projeto é licensiado pela MIT License - Veja a página da [licença](https://opensource.org/licenses/MIT) para detalhes
 
 <a id="como-contribuir"></a>
 
