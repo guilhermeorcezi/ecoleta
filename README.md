@@ -1,8 +1,9 @@
 <h3 align="center">
     <img alt="Logo" title="#logo" width="300px" src="./github_assets/logo.png">
-    <br><br>
-    <b>NLW #01: Ecoleta</b> 
+    <br>
 </h3>
+<p align="center"> 🚀 <strong>Ecoleta:</strong> Aplicação desenvolvida na 1ª Next Level Week da Rocketseat.
+ </p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
