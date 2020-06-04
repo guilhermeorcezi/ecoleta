@@ -1,5 +1,5 @@
 <h3 align="center">
-    <img alt="Logo" title="#logo" width="300px" src="./github_assets/logo.png">
+    <img alt="Logo" title="#logo" width="800px" src="./github_assets/logo.png">
     <br>
 </h3>
 <p align="center"> 🚀 <strong>Ecoleta:</strong> Aplicação desenvolvida na 1ª Next Level Week da Rocketseat.
