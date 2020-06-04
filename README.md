@@ -51,7 +51,7 @@ yarn install ou npm install
 yarn dev ou npm dev
 ```
 
-### Instalação - Front-End (Aplicação Web)
+### :exclamation: Instalação - Front-End (Aplicação Web)
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
 cd frontend
@@ -60,7 +60,7 @@ yarn start ou npm start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.
 
-### Mobile
+### :exclamation: Mobile
 
 Para ver a aplicação mobile com o React Native, primeiro é necessário colocar o IP do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois executar os comandos:
 ```bash
@@ -73,7 +73,7 @@ yarn start
 
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
 
-### Insomnia 
+### :exclamation: Insomnia 
 Para testar a API do Be The Hero, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
 
 ## :recycle: Como contribuir
@@ -82,10 +82,6 @@ Para testar a API do Be The Hero, baixe e instale o [Insomnia](https://insomnia.
 - Crie uma branch com a sua feature: `git checkout -b my-feature`
 - Commit suas mudanças: `git commit -m 'feat: My new feature'`
 - Push a sua branch: `git push origin my-feature`
-
-## :mortar_board: Quem ministrou?
-
-As aulas foram ministradas pelo mestre **[Diego Fernandes](https://github.com/diego3g)** nas aulas da **Next Level Week**.
 
 ## :memo: License
 
