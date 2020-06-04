@@ -46,7 +46,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ### :exclamation: Instalação - Back-End (Servidor/API)
 Clone o projeto em seu computador. Para instalar as dependências e executar o **Servidor** (modo desenvolvimento) execute:
 ```bash
-cd backend
+cd server
 yarn install ou npm install
 yarn dev ou npm dev
 ```
@@ -54,7 +54,7 @@ yarn dev ou npm dev
 ### :exclamation: Instalação - Front-End (Aplicação Web)
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
-cd frontend
+cd web
 yarn install ou npm install
 yarn start ou npm start
 ```
