@@ -40,32 +40,25 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <a id="como-usar"></a>
 
-## :fire: Como usar
+## :fire: Como utilizar
 
-## Getting started
 
-<h1 align="center"><img align="center" src="./github_assets/frontend_home.png" alt="Omnistack 11 Web" width="700"></img></h1>
-
-### Instalação - Backend
+### :exclamation: Instalação - Back-End (Servidor/API)
 Clone o projeto em seu computador. Para instalar as dependências e executar o **Servidor** (modo desenvolvimento) execute:
 ```bash
 cd backend
-yarn install
-yarn dev
+yarn install ou npm install
+yarn dev ou npm dev
 ```
 
-### Instalação - Frontend (WEB)
+### Instalação - Front-End (Aplicação Web)
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
 cd frontend
-yarn install
-yarn start
+yarn install ou npm install
+yarn start ou npm start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.
-
-Resultado da aplicação Web:
-
-<h1 align="center"><img align="center" src="./github_assets/webgif.gif" alt="Omnistack 11 Web" width="700"></img></h1>
 
 ### Mobile
 
@@ -80,18 +73,8 @@ yarn start
 
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
 
-Resultado da aplicação Mobile:
-
-<h1 align="center"><img align="center" src="./github_assets/mobile.gif" alt="Omnistack 11 Mobile"  width="300" height="600"></img></h1>
-
 ### Insomnia 
 Para testar a API do Be The Hero, baixe e instale o [Insomnia](https://insomnia.rest/download/) e em seguida clique na Workspace → `Import/Export` → `Import Data` → `From File` → e selecione o arquivo ` 	Insomnia_export.json` deste repositório.
-
-## Licença
-
-Esse projeto é licensiado pela MIT License - Veja a página da [licença](https://opensource.org/licenses/MIT) para detalhes
-
-<a id="como-contribuir"></a>
 
 ## :recycle: Como contribuir
 
