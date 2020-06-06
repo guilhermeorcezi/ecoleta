@@ -50,16 +50,16 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 Clone o projeto em seu computador. Para instalar as dependências e executar o **Servidor** (modo desenvolvimento) execute:
 ```bash
 cd server
-yarn install ou npm install
-yarn dev ou npm dev
+yarn install // npm install
+yarn dev // npm dev
 ```
 
 ### :exclamation: Instalação - Front-End (Aplicação Web)
 Para iniciar o **Frontend** do React utilize os comandos:
 ```bash
 cd web
-yarn install ou npm install
-yarn start ou npm start
+yarn install // npm install
+yarn start // npm start
 ```
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:3000` contendo o Projeto desenvolvido no dia 3 de 5.
 
@@ -68,10 +68,10 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 Para ver a aplicação mobile com o React Native, primeiro é necessário colocar o IP do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois executar os comandos:
 ```bash
 # NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado
-yarn global add install expo-cli ou npm install -g expo-cli
+yarn global add install expo-cli // npm install -g expo-cli
 cd mobile
-yarn install ou npm install
-yarn start ou npm start
+yarn install // npm install
+yarn start // npm start
 ```
 
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
