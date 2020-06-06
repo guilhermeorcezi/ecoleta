@@ -68,10 +68,10 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 Para ver a aplicação mobile com o React Native, primeiro é necessário colocar o IP do seu servidor (ou computador) no arquivo `src/services/api.js`, e depois executar os comandos:
 ```bash
 # NÃO é preciso executar a linha de baixo caso ja tenha o Expo (CLI) instalado
-yarn global add install expo-cli
+yarn global add install expo-cli ou npm install -g expo-cli
 cd mobile
-yarn install
-yarn start
+yarn install ou npm install
+yarn start ou npm start
 ```
 
 Assim que o processo terminar, automaticamente será aberta no seu navegador a página `localhost:19002`. Conecte seu emulador, ou teste o aplicativo por `LAN`: baixe o aplicativo *Expo* da Play Store ou App Store e em seguida escaneie o código QR.
