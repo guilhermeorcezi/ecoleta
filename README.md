@@ -36,7 +36,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## :heavy_check_mark: Resultado:
 
-- Em breve
+<h3 align="center">
+<img alt="mobile gif" title="#logo" width="200px" src="./github_assets/mobilegif.gif">
+<img alt="web gif" title="#logo" width="700px" src="./github_assets/webgif.gif">
+</h3>
 
 <a id="como-usar"></a>
 
