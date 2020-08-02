@@ -41,8 +41,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 <img alt="web gif" title="#logo" width="700px" src="./github_assets/webgif.gif">
 </h3>
 
-<a id="como-usar"></a>
-
 ## :fire: Como utilizar
 
 
