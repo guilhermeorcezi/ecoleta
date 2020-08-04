@@ -43,9 +43,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ## :fire: Como utilizar
 
-
 ### :exclamation: Instalação - Back-End (Servidor/API)
-Clone o projeto em seu computador. Para instalar as dependências e executar o **Servidor** (modo desenvolvimento) execute:
+Clone the project on your computer. To install the dependencies and run ** Server ** (development mode) execute:
 ```bash
 cd server
 yarn install // npm install
